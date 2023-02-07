@@ -1,4 +1,4 @@
-Sentiment Analysis Docker Pipeline
+# Sentiment Analysis Docker Pipeline
 
 Dockerized Pipeline of tweets using Twitter's API, MongoDB, PostgreSQL and Sentiment Analysis
 Project Description
@@ -9,10 +9,10 @@ How to Run
 * Clone the whole repo locally on your machine
 * Navigate from your (Bash) Terminal inside the project's main folder
 * Locate and run the compose.yml-file with the following commands:
-** docker-compose build #Builds all containers
-** docker-compose up -d #Runs everything in the background
-** docker stop $(docker ps - aq) #Stops all containers
-** docker-compose down #Deletes all containers
++ docker-compose build #Builds all containers
++ docker-compose up -d #Runs everything in the background
++ docker stop $(docker ps - aq) #Stops all containers
++ docker-compose down #Deletes all containers
 
 System Requirements
 
